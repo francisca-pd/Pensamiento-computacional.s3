@@ -9,7 +9,7 @@ Documentación de todo mi proceso en clases, entregas y solemnes.
 
 [P5.js](https://editor.p5js.org/francisca.plaza1/sketches/Imqa5GRPT)
 
-![image](Pensamiento_Computacional/Captura_de_pantalla_2026_04_09_223839.png)
+![image](PensamientoComputacional/Capturadepantalla20260409223839.png)
 
 ## Solemne n1 -Réplica de obra abstracta.
 - *Nombre de la obra: Composición, 1916.*
@@ -17,8 +17,8 @@ No encontré registro de un nombre oficial.
 - *Autora: Sophie Taeuber-Arp*
 - ![image](
 
--**Por qué elegí la obra:** Esta obra la escogí ya que me gustó la armonía de la composición y su paleta de colores. Además, el hecho de que sea una obra bordada le da una nueva técnica para la actualidad. Sabiendo que estas páginas no existían antes, dejando las composiciones totalmente a mano y el ahora poder recrearlas con la tecnología me parece muy interesante.
--**Cómo la analicé:** 
--**Cómo traduje la imágen:¨** Para traducir la obra a P5.js, seguí el consejo que dio la profesora. Descargué la obra original y la abrí en Photoshop. Allí tomé los píxeles exactos que medía la obra 
+- **Por qué elegí la obra:** Esta obra la escogí ya que me gustó la armonía de la composición y su paleta de colores. Además, el hecho de que sea una obra bordada le da una nueva técnica para la actualidad. Sabiendo que estas páginas no existían antes, dejando las composiciones totalmente a mano y el ahora poder recrearlas con la tecnología me parece muy interesante.
+- **Cómo la analicé:** 
+- **Cómo traduje la imágen:¨** Para traducir la obra a P5.js, seguí el consejo que dio la profesora. Descargué la obra original y la abrí en Photoshop. Allí tomé los píxeles exactos que medía la obra 
 
 
