@@ -9,7 +9,7 @@ Documentación de todo mi proceso en clases, entregas y solemnes.
 
 [P5.js](https://editor.p5js.org/francisca.plaza1/sketches/Imqa5GRPT)
 
-![image](
+![image](Pensamiento_Computacional/Captura_de_pantalla_2026_04_09_223839.png)
 
 ## Solemne n1 -Réplica de obra abstracta.
 - *Nombre de la obra: Composición, 1916.*
