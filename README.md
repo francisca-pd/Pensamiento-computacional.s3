@@ -20,11 +20,11 @@ Documentación de todo mi proceso en clases, entregas y solemnes.
 - *Nombre de la obra: Composición vertical-horizontal, 1916.*
 No encontré registro de un nombre 100% oficial.
 - *Autora: Sophie Taeuber-Arp*
-- ![image](PensamientoComputacional/sophietaeuberarp.jpg)
+ ![image](PensamientoComputacional/sophietaeuberarp.jpg)
 
 - **Por qué elegí la obra:** Esta obra la escogí ya que me gustó la armonía de la composición y su paleta de colores. Además, el hecho de que sea una obra bordada le da una nueva técnica para la actualidad. Sabiendo que estas páginas no existían antes, dejando las composiciones totalmente a mano y el ahora poder recrearlas con la tecnología me parece muy interesante.
 - **Cómo la analicé:** Me gustó el orden que tiene la obra, es homógeneo pero aún así llama la atención. La obra no es 100% simetrica, pero tiene un equilibrio que llama la atención. El gran cuadrado rojo genera un tipo de pesadez visual, mientras que las figuras pequeñas de sus costados ayudan a mantener una buena visual. El círculo siendo la única figura sin ángulos rectos rompe la rígidez de la obra. El azul del fondo ayuda mucho a contrastar con el cuadrado rojo, la figura principal que llama al espectador a observar la obra.
-- **Cómo traduje la imágen:¨** Para traducir la obra a P5.js, seguí el consejo que dio la profesora. Descargué la obra original y la abrí en Photoshop. Allí tomé los píxeles exactos que medía la obra.
+- **Cómo traduje la imágen:** Para traducir la obra a P5.js, seguí el consejo que dio la profesora. Descargué la obra original y la abrí en Photoshop. Allí tomé los píxeles exactos que medía la obra.
 
 ![image](PensamientoComputacional/photoshop1.png)
 
