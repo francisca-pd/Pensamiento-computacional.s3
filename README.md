@@ -9,7 +9,10 @@ Documentación de todo mi proceso en clases, entregas y solemnes.
 
 [P5.js](https://editor.p5js.org/francisca.plaza1/sketches/Imqa5GRPT)
 
-![imagen](
+*Recreación P5.js*
+![imagen](PensamientoComputacional/ejercicio3003.png).
+
+*Portada original*
 ![imagen](PensamientoComputacional/btsalbumportada.jpg).
 
 
