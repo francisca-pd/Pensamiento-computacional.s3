@@ -7,8 +7,19 @@ Esto en el proyecto se traduce en un medio cinético, la obra se transforma en u
 
 ## Códigos utilizados
 
-- GRILLA: Utilicé el comando "for" para mantener una grilla base.
+- GRILLA: Utilicé el comando "for" para mantener una grilla base de bucles.
 - "Ellipse" para círculos con e
-- "Text" para los números. Programé que al usar la tecla 'T' se genere un número distinto, utilizando el comando de "let opcionTexto = int(random...". Con esto, también se utiliza "else if", que es cuando hay más de 2 opciones posibles en una decisión, en este caso, en la programación.
+- "Text" para los números. Programé que al usar la tecla 'T' se genere un número distinto, utilizando el comando de "let opcionTexto = int(random...". Con esto, también se utilizan sus condicionales: "else if", que es cuando hay más de 2 opciones posibles en una decisión, en este caso, en la programación.
 - Lo mismo para cambiar los colores. Con la tecla 'C' se pueden cambiar los colores de 4 distintos con comando "let opcionColor = int(random..."
 - Para los ecos del aura, cree un rectángulo que cubre todo el lienzo. Ocupando el comando de "fill", al final agregué un 30, indicando su opacidad. El comando "draw" se va repitiendo infinitamente, así aplicando capas finas de color, dejando un efecto de eco al usar el mouse.
+
+# Diagrama de flujo
+
+# Inspiraciones
+Estas fotos e ideas son las que utilicé para idear mi obra interactiva.
+
+# EXTRAS
+## Complicaciones que tuve
+Al principio se me dificultó bastante el poder ejecutar de forma correcta la interacción con el mouse. El código me tiraba a error o no lograba lo que yo quería. Logré solucionarlo al leer detenidamente las presentaciones de clases y abriendo un sketch nuevo de pruebas, para así no dañar mi sketch original.
+## Lo que me gustó
+Me encantó el cómo se pueden crear muchas cosas con interacción. El lograr este tipo de ejercicios se veían muy lejanos al yo no tener ningún tipo de experiencia en programación. Quedé muy satisfecha con mi obra y me encantaría seguir haciendo trabajos de este estilo.
