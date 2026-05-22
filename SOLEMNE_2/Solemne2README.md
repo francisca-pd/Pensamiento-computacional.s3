@@ -1,1 +1,14 @@
+# SOLEMNE 2: Matriz de auras y números de la suerte.
+## ¿De qué trata?
 
+Elegí como referencia el arte cinético para este proyecto ya que su naturaleza en constante flujo captura a la perfección la esencia de la espiritualidad. En el ámbito de la meditación y espiritualidad, las auras se perciben como campos de energía luminosa que irradian de nosotros mismos y cambian según nuestro estado emocional, mientras que los "Angel numbers" actúan como sincronías y mensajes del universo que nos invitan a descubrir más de nosotros. 
+
+Esto en el proyecto se traduce en un medio cinético, la obra se transforma en una experiencia inmersiva y meditativa. Los movimientos fluidos, suaves y rítmicos que genera el código con la interacción del mouse imita el estado de atención plena. De este modo, la interacción no solo dibuja ecos de colores, sino que da una atmósfera relajante que invita a una pausa y interactuar con la obra.
+
+## Códigos utilizados
+
+- GRILLA: Utilicé el comando "for" para mantener una grilla base.
+- "Ellipse" para círculos con e
+- "Text" para los números. Programé que al usar la tecla 'T' se genere un número distinto, utilizando el comando de "let opcionTexto = int(random...". Con esto, también se utiliza "else if", que es cuando hay más de 2 opciones posibles en una decisión, en este caso, en la programación.
+- Lo mismo para cambiar los colores. Con la tecla 'C' se pueden cambiar los colores de 4 distintos con comando "let opcionColor = int(random..."
+- Para los ecos del aura, cree un rectángulo que cubre todo el lienzo. Ocupando el comando de "fill", al final agregué un 30, indicando su opacidad. El comando "draw" se va repitiendo infinitamente, así aplicando capas finas de color, dejando un efecto de eco al usar el mouse.
