@@ -1,4 +1,5 @@
 # SOLEMNE 2: Matriz de auras y números de la suerte.
+![Texto alternativo de la imagen](imagenes/captura.png)
 ## ¿De qué trata?
 
 Elegí como referencia el arte cinético para este proyecto ya que su naturaleza en constante flujo captura a la perfección la esencia de la espiritualidad. En el ámbito de la meditación y espiritualidad, las auras se perciben como campos de energía luminosa que irradian de nosotros mismos y cambian según nuestro estado emocional, mientras que los "Angel numbers" actúan como sincronías y mensajes del universo que nos invitan a descubrir más de nosotros. 
