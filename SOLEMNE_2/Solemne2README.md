@@ -1,10 +1,12 @@
 # SOLEMNE 2: Matriz de auras y números de la suerte.
-![Resultado](Solemne2PC/Resultado.png)
+![Resultado]
 ## ¿De qué trata?
 
 Elegí como referencia el arte cinético para este proyecto ya que su naturaleza en constante flujo captura a la perfección la esencia de la espiritualidad. En el ámbito de la meditación y espiritualidad, las auras se perciben como campos de energía luminosa que irradian de nosotros mismos y cambian según nuestro estado emocional, mientras que los "Angel numbers" actúan como sincronías y mensajes del universo que nos invitan a descubrir más de nosotros. 
 
 Esto en el proyecto se traduce en un medio cinético, la obra se transforma en una experiencia inmersiva y meditativa. Los movimientos fluidos, suaves y rítmicos que genera el código con la interacción del mouse imita el estado de atención plena. De este modo, la interacción no solo dibuja ecos de colores, sino que da una atmósfera relajante que invita a una pausa y interactuar con la obra.
+
+[P5.js](https://editor.p5js.org/francisca.plaza1/sketches/_6lyW9MxI)
 
 ## Códigos utilizados
 
