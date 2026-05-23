@@ -15,8 +15,11 @@ Esto en el proyecto se traduce en un medio cinético, la obra se transforma en u
 - GRILLA: Utilicé el comando "for" para mantener una grilla base de bucles.
 - "Ellipse" para círculos con e
 - "Text" para los números. Programé que al usar la tecla 'T' se genere un número distinto, utilizando el comando de "let opcionTexto = int(random...". Con esto, también se utilizan sus condicionales: "else if", que es cuando hay más de 2 opciones posibles en una decisión, en este caso, en la programación.
+- Textos: 111, 333, 555, 999.
 - Lo mismo para cambiar los colores. Con la tecla 'C' se pueden cambiar los colores de 4 distintos con comando "let opcionColor = int(random..."
+- Colores: Rosa pastel, Morado pastel, Celeste, Amarillo pastel.
 - Para los ecos del aura, cree un rectángulo que cubre todo el lienzo. Ocupando el comando de "fill", al final agregué un 30, indicando su opacidad. El comando "draw" se va repitiendo infinitamente, así aplicando capas finas de color, dejando un efecto de eco al usar el mouse.
+
 
 # Diagrama de flujo
 
