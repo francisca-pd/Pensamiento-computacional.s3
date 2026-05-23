@@ -20,6 +20,8 @@ Esto en el proyecto se traduce en un medio cinético, la obra se transforma en u
 - Colores: Rosa pastel, Morado pastel, Celeste, Amarillo pastel.
 - Para los ecos del aura, cree un rectángulo que cubre todo el lienzo. Ocupando el comando de "fill", al final agregué un 30, indicando su opacidad. El comando "draw" se va repitiendo infinitamente, así aplicando capas finas de color, dejando un efecto de eco al usar el mouse.
 
+**En resumen:** Responde perfectamente a distintas interacciones ya sea de mouse o de teclado, logrando el objetivo del encargo.
+
 
 # Diagrama de flujo
 
