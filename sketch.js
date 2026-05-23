@@ -1,45 +1,104 @@
+//Variables de color
+let rojo = 255;
+let verde = 180;
+let azul = 200; 
+
+//Texto inicial
+let numeroSuerte = '111';
+
 function setup() {
-  createCanvas(878, 913);
-  noStroke();
+  createCanvas(600, 600);
+  background(245);
 }
 
 function draw() {
-  background(44,101,146);
-  
-   //cuadrado negro
-  fill(0)
-  rect(182, 202, 95, 99)  
-  
-  //cuadrado rojo
-  fill(216,12,5)
-  rect(275, 301, 255, 257);
-  
-  //cuadrado amarillo
-  fill(253,163,5)
-  rect(597,176,60,62)
-  
-  //réctangulo beige
-  fill(255,228,157)
-  rect(533,230,124,70)
-  
-  //cuadrado naranjo
-  fill(255,120,28)
-  rect(657,301,63,61)
-  
-  //triángulo beige
-  fill(255,247,188)
-  triangle(153, 559, 278, 559, 215, 628)
+  // Efecto de eco circulares
+  push();
+  fill(245, 245, 245, 30);
+  noStroke();
+  rect(0, 0, width, height);
+  pop();
 
-  //triángulo morado
-  fill(170,155,158)
-  triangle(153, 630, 278, 630, 215, 697)
-  
-  //triángulo naranjoso
-  fill(212,140,82)
-  triangle(153, 700, 278, 700, 215, 766)
-  
-  //círculo celeste
-  fill(91,172,191)
-circle(627, 570, 192);
+  //Grilla
+  for (let x = 100; x < width; x = x + 200) {
+    for (let y = 100; y < height; y = y + 200) {
+      
+      //Interactividad con el mouse
+      if (mouseX > x - 90 && mouseX < x + 90 && mouseY > y - 90 && mouseY < y + 90) {
+        let tamanoVariable = map(mouseX, 0, width, 80, 150);
+        dibujarAura(x, y, tamanoVariable);
+      }
 
+      //Grilla fija y texto inicial dentro de la grilla
+      push();
+      noFill();
+      stroke(180);
+      rect(x - 90, y - 90, 180, 180);
+      
+      fill(100);
+      noStroke();
+      textSize(16);
+      text(numeroSuerte, x - 15, y + 80);
+      pop();
+    }
+  }
+}
+
+// Función del aura
+function dibujarAura(posicionX, posicionY, tamano) {
+  push();
+  noStroke();
+  for (let i = 0; i < 5; i++) {
+    fill(rojo, verde, azul, 25); 
+    ellipse(posicionX, posicionY, tamano - (i * 40), tamano - (i * 40));
+  }
+  pop();
+}
+
+// Interacciones con el teclado
+function keyPressed() {
+  
+  //TECLA C: Cambiar el color, son 4 opciones
+  if (key == 'c') {
+    let opcionColor = int(random(1, 5));
+
+    if (opcionColor == 1) { //Rosa pastel
+      rojo = 255; 
+      verde = 180; 
+      azul = 200;
+    } 
+    else if (opcionColor == 2) { //Morado pastel
+      rojo = 200; 
+      verde = 180; 
+      azul = 255;
+    } 
+    else if (opcionColor == 3) { //Celeste
+      rojo = 180; 
+      verde = 220; 
+      azul = 255;
+    } 
+    else if (opcionColor == 4) { //Amarillo pastel
+      rojo = 255; 
+      verde = 250; 
+      azul = 180;
+    }
+  }
+  
+  // TECLA T: Cambiar el texto, 4 opciones
+  if (key == 't') {
+    let opcionTexto = int(random(1, 5));
+
+    if (opcionTexto == 1) {
+      numeroSuerte = '111';
+    } 
+    else if (opcionTexto == 2) {
+      numeroSuerte = '333';
+    } 
+    else if (opcionTexto == 3) {
+      numeroSuerte = '555';
+    } 
+    else if (opcionTexto == 4) {
+      numeroSuerte = '999';
+    }
+  }
 }
