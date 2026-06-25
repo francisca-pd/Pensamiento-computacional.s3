@@ -7,7 +7,8 @@
 Para mi examen final quise seguir mi idea de auras, ecos y arte cinético de mi solemne pasada ya que me gustó el resultado y lo vi adecuado para el examen.
 
 ![Pantalla de inicio p5.js](examenpc/pantallainicio.png)
-![Juego]
+![Juego](examenpc/juego.png)
+![MenúFinal](
 ---
 # Descripción objetiva
 - **Qúe es el proyecto**: Este trabajo consiste en un sistema visual interactivo que toma la forma de un juego simple programado. En ste caso, con mi solemne pasada, mi juego simula la recolección de frecuencias energéticas que caen del lienzo y hay que atraparlas.
