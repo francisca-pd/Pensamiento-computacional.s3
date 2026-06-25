@@ -3,7 +3,10 @@
 ## Nombre del proyecto: AURA CATCHER
 ## Autora: Francisca Plaza
 ---
+
 Para mi examen final quise seguir mi idea de auras, ecos y arte cinético de mi solemne pasada ya que me gustó el resultado y lo vi adecuado para el examen.
+
+![Pantalla de inicio p5.js](examenpc/pantallainicio.png)
 
 ---
 # Descripción objetiva
