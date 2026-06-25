@@ -31,6 +31,31 @@ Para mi examen final quise seguir mi idea de auras, ecos y arte cinético de mi 
     
 ![Inspo1](SOLEMNE_2/solemnepc/inspocuatro.jpg)
 ![Inspo2](SOLEMNE_2/solemnepc/inspodos.jpg)
-  - **Principio de diseño explorado**: 
- 
+
+  - **Principio de diseño explorado**: Trabajé mucho el contraste y la armonía visual. Por ejemplo, en vez de usar bordes negros en el texto del menú inicial, usé la herramienta de cuentagotas en illustrator para sacar un tono magenta oscuro de la foto de fondo y lo usé para los trazos (`stroke`), logrando que todo combine mejor.
+
+---
+## Sistema computacional
+- **Inputs:**
+  * `mouseX`: Lee dónde está el cursor del usuario para mover el aura/círculo.
+  * Teclado: Detecta si se presiona la tecla de espacio.
+  * Clic: Detecta si el usuario hace clic para reiniciar el juego.
+- **Procesos:**
+  * **Gravedad:** Sumar valores a la variable `caidaY` en cada fotograma para que la pelota baje, haciéndola más rápida a medida que sube el `puntaje`.
+  * **Cambio de color:** Usar la función `map()` para que el color del aura cambie dependiendo de si el mouse está más a la izquierda o a la derecha.
+  * **Colisiones:** Usar condicionales `if` para calcular si la posición de la pelota choca con la posición del jugador, o si la pelota se pasó del límite inferior de la pantalla.
+  * **Azar:** Usar la función `random()` para que la pelota caiga desde distintas posiciones en `X`, y para elegir al azar el mensaje final del 1 al 5.
+* **Estados:**
+  * `estado 0` (Menú): Pantalla estática de inicio.
+  * `estado 1` (Juego): Donde funcionan las mecánicas, la gravedad y la música.
+  * `estado 2` (Fin): El juego se detiene, la música para y se muestra el resultado final.
+* **Eventos:**
+  * `preload()`: Para cargar la foto y la música antes de que empiece todo.
+  * `setup()`: Para crear el tamaño del lienzo y dar las configuraciones iniciales.
+  * `draw()`: El ciclo principal que dibuja todo 60 veces por segundo.
+  * `keyPressed()` y `mousePressed()`: Eventos que solo pasan cuando el usuario toca algo.
+* **Outputs:**
+  * Visualización gráfica en la pantalla de p5.js.
+  * Reproducción de audio.
+  * Textos variables (el número de la suerte y la frase).
     
