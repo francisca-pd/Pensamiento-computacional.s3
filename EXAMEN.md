@@ -27,7 +27,10 @@ Para mi examen final quise seguir mi idea de auras, ecos y arte cinético de mi 
 
   # Descripción conceptual
   - **Idea central**: El juego se trata de sintonizar con buenas energías. Mi idea era que, en lugar de que "perder" fuera algo frustrante, el juego te entregara una recompensa visual y emocional. Por eso, cuando el círculo toca el borde del canvas, el juego te da un mensaje motivacional al final. 
-  - **Referente de diseño**: Cómo mi solemne pasada, seguí las ideas de arte cinético, utilizando auras y mensajes motivacionales con números guía o espejo. 
+  - **Referente de diseño**: Cómo mi solemne pasada, seguí las ideas de arte cinético, utilizando auras y mensajes motivacionales con números guía o espejo.
+    
+ ![Inspo1](SOLEMNE_2/solemnepc/inspocuatro.jpg)
+! [Inspo2](
   - **Principio de diseño explorado**: 
  
     
