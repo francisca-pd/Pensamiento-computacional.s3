@@ -58,4 +58,11 @@ Para mi examen final quise seguir mi idea de auras, ecos y arte cinético de mi 
   * Visualización gráfica en la pantalla de p5.js.
   * Reproducción de audio.
   * Textos variables (el número de la suerte y la frase).
+ 
+## Explicación de la Interacción
+1. **Qué datos entran al sistema:** El programa lee la posición del mouse del jugador y si este presiona teclas o hace clics.
+2. **Cómo se procesan y transforman:** El sistema toma el valor de `mouseX` y lo transforma en la posición del aura. Además, usa `map()` para transformar ese mismo número de posición en un número de color RGB. Al mismo tiempo, el sistema suma números constantemente a `caidaY` para generar el movimiento de la pelota.
+3. **Qué respuestas producen:** Si el jugador logra interceptar la pelota (los valores de X e Y coinciden en el `if`), el sistema responde dándole 1 punto, subiendo la dificultad y devolviendo la pelota arriba. Si el jugador falla y la pelota llega al piso, el sistema responde cambiando el estado a 2, apagando la música y mostrando el mensaje angelical en pantalla.
+
+---
     
