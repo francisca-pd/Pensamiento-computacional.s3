@@ -60,7 +60,7 @@ Para mi examen final quise seguir mi idea de auras, ecos y arte cinético de mi 
   * Textos variables (el número de la suerte y la frase).
  
   ## Diagrama de flujo
-  ![Diagrama de flujo](
+  ![Diagrama de flujo](examenpc/diagramadeflujo.png)
  
 ## Explicación de la Interacción
 1. **Qué datos entran al sistema:** El programa lee la posición del mouse del jugador y si este presiona teclas o hace clics.
