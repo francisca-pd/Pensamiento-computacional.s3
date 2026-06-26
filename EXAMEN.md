@@ -59,10 +59,50 @@ Para mi examen final quise seguir mi idea de auras, ecos y arte cinético de mi 
   * Reproducción de audio.
   * Textos variables (el número de la suerte y la frase).
  
+  ## Diagrama de flujo
+  ![Diagrama de flujo](
+ 
 ## Explicación de la Interacción
 1. **Qué datos entran al sistema:** El programa lee la posición del mouse del jugador y si este presiona teclas o hace clics.
 2. **Cómo se procesan y transforman:** El sistema toma el valor de `mouseX` y lo transforma en la posición del aura. Además, usa `map()` para transformar ese mismo número de posición en un número de color RGB. Al mismo tiempo, el sistema suma números constantemente a `caidaY` para generar el movimiento de la pelota.
 3. **Qué respuestas producen:** Si el jugador logra interceptar la pelota (los valores de X e Y coinciden en el `if`), el sistema responde dándole 1 punto, subiendo la dificultad y devolviendo la pelota arriba. Si el jugador falla y la pelota llega al piso, el sistema responde cambiando el estado a 2, apagando la música y mostrando el mensaje angelical en pantalla.
 
 ---
-    
+
+## Explicación de la Interacción
+- **Qué datos entran al sistema:** P5.js lee la posición del mouse del jugador y si este presiona teclas o hace clics.
+-  **Cómo se procesan y transforman:** El programa usa la posición del mouse para mover el círculo/aura y cambiar su color usando la función map(). Al mismo tiempo, simula la gravedad sumándole valores constantemente a la posición del circulo (caidaY) para que caiga hacia el piso.
+- **Qué respuestas producen:** Si atrapas el circulo, ganas 1 punto, aumenta la velocidad de caída y el circulo vuelve arriba. Si fallas y la pelota toca el piso, el juego termina (pasa al estado 2): la música se apaga y aparece el mensaje en pantalla.
+
+---
+
+## Recursos Multimedia Utilizados
+* **Imagen (`fotofondomenuexamenpc.jpg`):** Se usa como fondo de la pantalla de inicio. Su función es establecer la paleta de colores y el ambiente relajante del proyecto desde el primer segundo.
+
+![Foto fondo pantalla inicio](
+* **Audio (`musicafondoexamenpc.mp3`):** Es una pista ambiental. No está solo de adorno, sino que cumple una función en la lógica de estados: se enciende (`loop`) solo en el estado de juego y se apaga de golpe (`stop`) en el estado de pérdida, ayudando a que el usuario entienda qué está pasando.
+
+---
+
+## Registro Visual
+
+* **Referentes:** Me inspiré en las gráficas de meditación, el arte vaporwave y los colores de los atardeceres.
+* **Bocetos e Iteraciones:**
+  * *Primera prueba:* Empecé con figuras geométricas simples y bordes negros para probar que el código de atrapar la pelota funcionara.
+  * *Segunda prueba:* Intenté poner los números cayendo dentro de las pelotas, pero visualmente era muy caótico y no se alcanzaba a leer el mensaje al caer rápido.
+  * *Decisión final:* Decidí limpiar la pantalla de juego dejando solo esferas de energía, y dejar el número motivacional como una sorpresa para la pantalla final. Además, cambié los trazos negros por tonos magentas para integrar mejor los colores.
+
+---
+
+## Reflexión Final
+* **Principales decisiones tomadas:** La mejor decisión que tomé en el código fue no usar comandos complicados para separar el texto, sino que crear dos variables distintas (`numeroSuerte` y `frase`). Esto hizo que mi código fuera mucho más fácil de leer, de ordenar en la pantalla y de explicar. También decidí pintar el fondo del juego con un nivel de transparencia (alfa) en vez de un color sólido, lo que generó un efecto visual de "estela" o eco súper interesante para representar las energías.
+* **Dificultades encontradas:** Lo que más me costó fue entender cómo controlar la música para que no se reprodujera muchas veces encima de sí misma, y lograr que se detuviera exactamente en el momento en que la pelota tocaba el suelo usando la lógica de los estados.
+* **Aprendizajes obtenidos:** Aprendí a estructurar un código completo usando la lógica de "Estados" (0, 1 y 2). Entendí que un proyecto no es solo un lienzo que reacciona, sino un sistema que puede evolucionar por sí solo (como la gravedad que aumenta) y cambiar sus propias reglas dependiendo de la etapa en la que esté.
+
+---
+
+## Presentación Final
+En la exposición oral me enfocaré en:
+1. **Concepto:** Cómo relacioné atrapar energías con los Angel Numbers.
+2. **Sistema y Estados:** Explicaré cómo el uso de la variable `estado` me permitió organizar el inicio, el juego y el fin sin que el código chocara entre sí.
+3. **Evolución:** Demostraré que mi proyecto no es solo reactivo, sino que tiene matemáticas autónomas (la gravedad) que aumentan la dificultad progresivamente dependiendo del puntaje.
