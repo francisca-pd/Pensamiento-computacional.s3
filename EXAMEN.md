@@ -82,7 +82,8 @@ Para mi examen final quise seguir mi idea de auras, ecos y arte cinético de mi 
 ![Foto fondo pantalla inicio](examenpc/fotofondomenuexamenpc.jpg)
 * **Audio (`musicafondoexamenpc.mp3`):** Es una pista ambiental. No está solo de adorno, sino que cumple una función en la lógica de estados: se enciende (`loop`) solo en el estado de juego y se apaga de golpe (`stop`) en el estado de pérdida, ayudando a que el usuario entienda qué está pasando.
 
-  ![foto carga de archivos](
+  ![foto carga de archivos](examenpc/fotoarchivosp5js.png)
+  
 
 ---
 
@@ -94,13 +95,15 @@ Para mi examen final quise seguir mi idea de auras, ecos y arte cinético de mi 
   ![Prueba 1](examenpc/prueba1.png)
 
   * *Segunda prueba:* Añadí el aura a los circulos y que se formara el eco. Probé las pantallas de inicio y final con texto.
-    ![Prueba 2](examenpc/prueba2.png)
+![Prueba 2](examenpc/prueba2.png)
+![Codigo de prueba 2](examenpc/codigoprueba2.png)
     
   * *Tercera prueba:* Intenté poner los números cayendo dentro de las pelotas, pero visualmente era muy caótico y no se alcanzaba a leer el mensaje al caer rápido.
-  ![Numeros sin circulos](
 
-* *Cuarta prueba:* Probé los números dentro de los círculos. Se notaba más limpios pero no me convencia del todo.
-  ![Numeros con circulo](
+![Numeros sin circulos](examenpc/iteracion2.png)
+
+  * *Cuarta prueba:* Probé los números dentro de los círculos. Se notaba más limpios pero no me convencia del todo.
+![Numeros con circulo](examenpc/iteracion3.png)
 
   * *Decisión final:* Decidí limpiar la pantalla de juego dejando solo esferas de energía, y dejar el número motivacional como una sorpresa para la pantalla final. Además, cambié los trazos negros por tonos magentas para integrar mejor los colores.
 ![Arreglar texto](examenpc/iteracion1.png)
@@ -108,14 +111,6 @@ Para mi examen final quise seguir mi idea de auras, ecos y arte cinético de mi 
 ---
 
 ## Reflexión Final
-* **Principales decisiones tomadas:** La mejor decisión que tomé en el código fue no usar comandos complicados para separar el texto, sino que crear dos variables distintas (`numeroSuerte` y `frase`). Esto hizo que mi código fuera mucho más fácil de leer, de ordenar en la pantalla y de explicar. También decidí pintar el fondo del juego con un nivel de transparencia (alfa) en vez de un color sólido, lo que generó un efecto visual de "estela" o eco súper interesante para representar las energías.
-* **Dificultades encontradas:** Lo que más me costó fue entender cómo controlar la música para que no se reprodujera muchas veces encima de sí misma, y lograr que se detuviera exactamente en el momento en que la pelota tocaba el suelo usando la lógica de los estados.
-* **Aprendizajes obtenidos:** Aprendí a estructurar un código completo usando la lógica de "Estados" (0, 1 y 2). Entendí que un proyecto no es solo un lienzo que reacciona, sino un sistema que puede evolucionar por sí solo (como la gravedad que aumenta) y cambiar sus propias reglas dependiendo de la etapa en la que esté.
-
----
-
-## Presentación Final
-En la exposición oral me enfocaré en:
-1. **Concepto:** Cómo relacioné atrapar energías con los Angel Numbers.
-2. **Sistema y Estados:** Explicaré cómo el uso de la variable `estado` me permitió organizar el inicio, el juego y el fin sin que el código chocara entre sí.
-3. **Evolución:** Demostraré que mi proyecto no es solo reactivo, sino que tiene matemáticas autónomas (la gravedad) que aumentan la dificultad progresivamente dependiendo del puntaje.
+* **Principales decisiones tomadas:** La mejor decisión que tomé fue mantener mi estética y códigos lo más parecidos posibles a la de mi solemne pasada. Como comenté, me gustó mucho el resultado de esa solemne, por lo cual hacer esta nueva iteración fue muy agradable. Además, el estilo de juego que hice es bastante interactivo que es justamente lo que se pide para el examen.
+* **Dificultades encontradas:** Lo que más me costó fue entender cómo controlar la música para que no se reprodujera muchas veces encima de sí misma, y lograr que se detuviera exactamente en el momento en que la pelota tocaba el suelo usando la lógica de los estados. Revisé las presentaciones de las clases una y otra vez para poder conseguir los códigos finales.
+* **Aprendizajes obtenidos:** Aprendí a estructurar un código completo usando la lógica de "Estados" (0, 1 y 2). Logré entender cómo los códigos reaccionan al comando que se les de. Es literal mandar el código como tu quieras. Si quieres que haga un círculo rojo, hará un círculo rojo. Me pareció muy ineteresante este examen y el curso en general.
