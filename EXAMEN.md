@@ -94,7 +94,7 @@ Para mi examen final quise seguir mi idea de auras, ecos y arte cinético de mi 
   ![Prueba 1](examenpc/prueba1.png)
 
   * *Segunda prueba:* Añadí el aura a los circulos y que se formara el eco. Probé las pantallas de inicio y final con texto.
-    ![Prueba 2](
+    ![Prueba 2](examenpc/prueba2.png)
     
   * *Tercera prueba:* Intenté poner los números cayendo dentro de las pelotas, pero visualmente era muy caótico y no se alcanzaba a leer el mensaje al caer rápido.
   ![Numeros sin circulos](
