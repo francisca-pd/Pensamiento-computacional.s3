@@ -91,7 +91,11 @@ Para mi examen final quise seguir mi idea de auras, ecos y arte cinético de mi 
   * *Primera prueba:* Empecé con figuras geométricas simples y bordes negros para probar que el código de atrapar la pelota funcionara.
   * *Segunda prueba:* Intenté poner los números cayendo dentro de las pelotas, pero visualmente era muy caótico y no se alcanzaba a leer el mensaje al caer rápido.
   * *Decisión final:* Decidí limpiar la pantalla de juego dejando solo esferas de energía, y dejar el número motivacional como una sorpresa para la pantalla final. Además, cambié los trazos negros por tonos magentas para integrar mejor los colores.
-
+![Arreglar texto](examenpc/iteracion1.png)
+![Numeros sin circulos](
+![Numeros con circulo](
+![Prueba 1](
+![Prueba 2](
 ---
 
 ## Reflexión Final
