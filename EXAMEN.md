@@ -82,6 +82,8 @@ Para mi examen final quise seguir mi idea de auras, ecos y arte cinético de mi 
 ![Foto fondo pantalla inicio](examenpc/fotofondomenuexamenpc.jpg)
 * **Audio (`musicafondoexamenpc.mp3`):** Es una pista ambiental. No está solo de adorno, sino que cumple una función en la lógica de estados: se enciende (`loop`) solo en el estado de juego y se apaga de golpe (`stop`) en el estado de pérdida, ayudando a que el usuario entienda qué está pasando.
 
+  ![foto carga de archivos](
+
 ---
 
 ## Registro Visual
@@ -89,13 +91,20 @@ Para mi examen final quise seguir mi idea de auras, ecos y arte cinético de mi 
 * **Referentes:** Me inspiré en las gráficas de meditación, el arte vaporwave y los colores de los atardeceres.
 * **Bocetos e Iteraciones:**
   * *Primera prueba:* Empecé con figuras geométricas simples y bordes negros para probar que el código de atrapar la pelota funcionara.
-  * *Segunda prueba:* Intenté poner los números cayendo dentro de las pelotas, pero visualmente era muy caótico y no se alcanzaba a leer el mensaje al caer rápido.
+  ![Prueba 1](examenpc/prueba1.png)
+
+  * *Segunda prueba:* Añadí el aura a los circulos y que se formara el eco. Probé las pantallas de inicio y final con texto.
+    ![Prueba 2](
+    
+  * *Tercera prueba:* Intenté poner los números cayendo dentro de las pelotas, pero visualmente era muy caótico y no se alcanzaba a leer el mensaje al caer rápido.
+  ![Numeros sin circulos](
+
+* *Cuarta prueba:* Probé los números dentro de los círculos. Se notaba más limpios pero no me convencia del todo.
+  ![Numeros con circulo](
+
   * *Decisión final:* Decidí limpiar la pantalla de juego dejando solo esferas de energía, y dejar el número motivacional como una sorpresa para la pantalla final. Además, cambié los trazos negros por tonos magentas para integrar mejor los colores.
 ![Arreglar texto](examenpc/iteracion1.png)
-![Numeros sin circulos](
-![Numeros con circulo](
-![Prueba 1](
-![Prueba 2](
+
 ---
 
 ## Reflexión Final
