@@ -79,7 +79,7 @@ Para mi examen final quise seguir mi idea de auras, ecos y arte cinético de mi 
 ## Recursos Multimedia Utilizados
 * **Imagen (`fotofondomenuexamenpc.jpg`):** Se usa como fondo de la pantalla de inicio. Su función es establecer la paleta de colores y el ambiente relajante del proyecto desde el primer segundo.
 
-![Foto fondo pantalla inicio](
+![Foto fondo pantalla inicio](examenpc/fotofondomenuexamenpc.jpg)
 * **Audio (`musicafondoexamenpc.mp3`):** Es una pista ambiental. No está solo de adorno, sino que cumple una función en la lógica de estados: se enciende (`loop`) solo en el estado de juego y se apaga de golpe (`stop`) en el estado de pérdida, ayudando a que el usuario entienda qué está pasando.
 
 ---
